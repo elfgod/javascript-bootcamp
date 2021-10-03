@@ -4,50 +4,19 @@ let price = 20.99;
     price = price - 1;
 
 console.log(typeof price); // number
-console.log(price);
+
 
     price = 12;
-    priceo = price * 2; // 24 multiplication
-    console.log(price);
+let taxRate = 0.07;
+console.log("price * taxRate : ", price * taxRate); // 0.8400000000000001
 
-    price = 12;
-    price = price / 3; // 4 division
-    console.log(price);
+let totalPriceTaxRate = price * taxRate;
+console.log("totalPriceTaxRate = price * taxRate : ", totalPriceTaxRate);
+console.log("\n");
+console.log("totalPriceTaxRate = 0.8400000000000001 : ", totalPriceTaxRate);
+console.log("\n");
+console.log("typeof totalPriceTaxRate", typeof totalPriceTaxRate);
 
-    price = 12;
-    price = price % 5; // 2 the remainder
-    console.log(price);
-
-/* shortcuts
-    price += 5 === price = price + 5
-    price -= 5 === price = price - 5
-    price *= 5 === price = price * 5
-    price /= 5 === price = price / 5
-    price %= 5 === price = price % 5 
-*/
-// ####################
-
-    price = 12;
-    taxRate = 0.07;
-console.log(price * taxRate); // 0.8400000000000001
-
-// Increment operator
-console.log(++price); // before the var name
-console.log(++price); // after the var name
-
-console.log(--price); // after the var name
-
-
-    price = (3+3) * 2; // 12
-console.log(price); 
-    price = 3 + 3 * 2; // 9
-console.log(price);
-
-// Negative numbers
-let amount = 20 - (-2); // 22
-console.log(amount);
-    amount = 0
-console.log(--amount); // -1
 
 // ####################
 
