@@ -1,6 +1,24 @@
 /* 
-    Class 03
+    Class 01
 */
+
+// START ====================
+// JavaScript Comments @@@@@ //
+
+// Single line coment
+console.log("// single line comments");
+console.log("\n");
+
+// NEWLINE ********************
+
+/* 
+    Multiple line comments
+*/
+console.log("/* Multiple lines comments */");
+
+// END ====================
+console.log("\n");
+console.log("\n");
 
 /*
 1.JavaScript Reserved Words Link

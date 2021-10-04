@@ -1,29 +1,9 @@
 /* 
-    Class 01
+    Class 02
 */
-
-// START ====================
-// JavaScript Comments @@@@@ //
-
-
-// Single line coment
-console.log("// single line comments");
-console.log("\n");
-
-// NEWLINE ********************
-
-/* 
-    Multiple line comments
-*/
-console.log("/* Multiple lines comments */");
-console.log("\n");
-
-// END ====================
-
 
 // START ====================
 // JavaScript Operators part 1 @@@@@ //
-
 
 /*
 1.Aritmetic Operators
@@ -116,6 +96,8 @@ console.log("Operator <=");
 console.log("5 <= 2 : ", 5 <= 2);
 
 
+
+
 console.log("\n");
 console.log("\n");
 // NEWLINE ********************
@@ -134,6 +116,16 @@ console.log("Operator || OR");
 console.log("10 > 5 || 5 > 3 : ", 10 > 5 || 5 > 3);
 console.log("10 > 5 || 15 < 13 : ", 10 > 5 || 15 < 13);
 console.log("15 > 30 || 5 < 2 : ", 15 > 30 || 5 < 2);
+
+/*
+let price = 11;
+if (price >= 10 && price <=20  ) {
+    console.log('price is >= 10');
+} else if (price >= 21) {
+    console.log('price is >= 21');
+} else {
+    console.log('price is < than 10')
+} */
 
 console.log("\n");
 console.log("\n");
@@ -185,6 +177,7 @@ console.log("\n");
 // NEWLINE ********************
 
 console.log("5.Conditional Operators (Ternary Operator)");
+// (condition) ? true-statement : false-statement;
 console.log("\n");
 
 console.log("10 > 5 ? 'This is true' : 'This is false' : ");
@@ -192,6 +185,9 @@ console.log(10 > 5 ? 'This is true' : 'This is false');
 console.log("\n");
 console.log("10 === '10' ? 'This is true : 'This is false : '");
 console.log(10 === '10' ? 'This is true' : 'This is false');
+console.log("\n");
+console.log("11 > 10 ? 'expensive' : 'cheap'");
+console.log(11 > 10 ? 'expensive' : 'cheap');
 console.log("\n");
 console.log("\n");
 // NEWLINE ********************
