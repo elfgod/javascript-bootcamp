@@ -22,9 +22,6 @@ console.log("Operator Subtraction (-) : 5 - 1 = ", 5 - 1);
 console.log("Operator Multiplication (*) : 4 * 2 = ", 4 * 2);
 console.log("Operator Division (/) : 10 / 2 = ", 10 / 2);
 console.log("Operator Remainder (%) : 15 % 2 = ", 15 % 2);
-
-
-
 console.log("\n");
 
 let increment = 1;
@@ -50,7 +47,6 @@ console.log("JavaScript " + "Bootcamp");
 
 console.log("\n");
 console.log("\n");
-
 // NEWLINE ********************
 
 console.log("2.Comparison Operators:");
@@ -94,9 +90,6 @@ console.log("2 >= 2 : ", 2 >= 2);
 console.log("\n")
 console.log("Operator <=");
 console.log("5 <= 2 : ", 5 <= 2);
-
-
-
 
 console.log("\n");
 console.log("\n");
@@ -188,6 +181,7 @@ console.log(10 === '10' ? 'This is true' : 'This is false');
 console.log("\n");
 console.log("11 > 10 ? 'expensive' : 'cheap'");
 console.log(11 > 10 ? 'expensive' : 'cheap');
+
 console.log("\n");
 console.log("\n");
 // NEWLINE ********************
@@ -202,13 +196,12 @@ console.log("4 * 3 ** 2 : ", 4 * 3 ** 2);
 
 console.log("(2 + 2) * 10 : ", (2 + 2) * 10);
 
-
 console.log("\n");
 console.log("\n");
 // NEWLINE ********************
 
-
 console.log("7.Others");
+console.log("\n");
 
 // Negative numbers
 let amount = 20 - (-2);

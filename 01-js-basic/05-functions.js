@@ -28,9 +28,9 @@ function logMessage() {
 }
 
 logMessage(); // Here is a message
-console.log("\n");
-console.log("\n");
 
+console.log("\n");
+console.log("\n");
 // NEWLINE ********************
 
 console.log("2.Function Expression:");
@@ -47,9 +47,9 @@ let fnArrow = () => {
     console.log('Arrow function message');
 }
 fnArrow();
-console.log("\n");
-console.log("\n");
 
+console.log("\n");
+console.log("\n");
 // NEWLINE ********************
 
 console.log("3.Function Passing Values:");
@@ -66,9 +66,9 @@ function showMessages(message, anotherMessage) {
     console.log(message, anotherMessage);
 }
 showMessages('Josue', 'Guzman');
-console.log("\n");
-console.log("\n");
 
+console.log("\n");
+console.log("\n");
 // NEWLINE ********************
 
 console.log("4.Function Return Values:");
@@ -79,9 +79,9 @@ function getSecretCode(value) {
     return code;
 }
 console.log(getSecretCode(2)); // 84
-console.log("\n");
-console.log("\n");
 
+console.log("\n");
+console.log("\n");
 // NEWLINE ********************
 
 console.log("5.Function Scope:");

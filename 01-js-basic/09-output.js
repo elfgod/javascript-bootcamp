@@ -49,3 +49,22 @@ function warn(){
     console.log("function warn() : alert this is a warning message");
     document.write("function warn() : alert this is a warning message");
 }
+
+function getConfirmation(){
+    let retVal = confirm("Do you want to continue?");
+    if(retVal === true) {
+        document.write("User wants to continue");
+        console.log(retVal);
+        return true;
+    } else {
+        document.write("User does not wants to continue");
+        console.log(retVal);
+        return false;
+    }
+    
+}
+
+function getValue(){
+    let retVal = prompt("Enter your name:", "Your name here");
+    document.write("You have entered : " + retVal);
+}

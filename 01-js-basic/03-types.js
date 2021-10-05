@@ -31,6 +31,7 @@ console.log("totalPriceTaxRate = price * taxRate : ", price * taxRate);
 
 console.log("\n");
 console.log("typeof totalPriceTaxRate = 0.8400000000000001 : ", typeof totalPriceTaxRate);
+
 console.log("\n");
 console.log("\n");
 // NEWLINE ********************
@@ -50,6 +51,7 @@ console.log("\n");
     message = 'HELLO'
     message += ' world';
 console.log(message); // HELLO world
+
 console.log("\n");
 console.log("\n");
 // NEWLINE ********************
@@ -79,6 +81,7 @@ console.log("message = '12345' : ", typeof message); // string
 
     
 console.log("messager += 2", message += 2); // 123452
+
 console.log("\n");
 console.log("\n");
 // NEWLINE ********************
@@ -93,6 +96,7 @@ console.log("\n");
 
 amount = Number.parseFloat('123.12');
 console.log("amount = Number.parseFloat('123.12') : ", amount); // number
+
 console.log("\n");
 console.log("\n");
 // NEWLINE ********************
@@ -115,6 +119,7 @@ console.log("\n");
 
 saved = !saved;
 console.log("saved = !saved : ", saved); // true
+
 console.log("\n");
 console.log("\n");
 // NEWLINE ********************

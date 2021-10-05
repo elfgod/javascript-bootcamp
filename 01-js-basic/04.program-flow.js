@@ -45,9 +45,9 @@ if (!true){ //
     console.log('not true');
 }
 console.log("if (!true) false, this will not print");
-console.log("\n");
-console.log("\n");
 
+console.log("\n");
+console.log("\n");
 // NEWLINE ********************
 
 console.log("2.truthy and Falsy expresion:");
@@ -61,9 +61,9 @@ console.log("if ( +(1.1 + 1.3).toFixed(2) === 2.4 )");
 if ( +(1.1 + 1.3).toFixed(2) === 2.4 ){ // true
     console.log('true');
 }
-console.log("\n");
-console.log("\n");
 
+console.log("\n");
+console.log("\n");
 // NEWLINE ********************
 
 console.log("3.Block scope:");
@@ -77,9 +77,9 @@ console.log("\n");
 }
 console.log(value); // Uncaught ReferenceError: value is not defined
  */
-console.log("\n");
-console.log("\n");
 
+console.log("\n");
+console.log("\n");
 // NEWLINE ********************
 
 console.log("4.Loops: for, while, do...while:");
