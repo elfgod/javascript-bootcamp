@@ -12,6 +12,7 @@
 4.The Document Object Model(DOM)
 5.Detecting Button Clicks
 6.Showing and Hiding DOM Elements
+7.Arrays in the DOM
 */
 
 // NEWLINE ********************
@@ -163,6 +164,18 @@ buttonReview.addEventListener('click', function() {
     }
 });
 
+console.log("\n");
+console.log("\n");
+// NEWLINE ********************
 
+console.log("7.Arrays in the DOM:");
+console.log("\n");
+// this loops all the classes called "container"
+// this takes out container[0]
+
+const containers =
+    document.getElementsByClassName('container');
+containers[0].classList.add('d-none');
+console.log(containers);
 
 
