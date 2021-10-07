@@ -1,6 +1,5 @@
 /* 
-    Class 02
-*/
+    Class 09
 
 /*
 1.document.Write()
@@ -10,38 +9,47 @@
 */
 
 // START ====================
-// fill this space @@@@@ //
+// Output @@@@@ //
 
 console.log("1.document.Write():");
 document.write("5 * 6 : ", 5 * 6);
 document.write("<br>");
 document.write("Hello, " + "My name is JavaScript");
-// END ====================
+
+console.log("\n");
 console.log("\n");
 // NEWLINE ********************
 
-console.log("2.window.alert():");
+console.log("2.window.alert()::");
+console.log("\n");
+
+console.log("2");
 
 window.alert(10 + 25);
 
 alert("Hello World");
 
-// END ====================
+console.log("\n");
 console.log("\n");
 // NEWLINE ********************
 
 console.log("3.console.log():");
+console.log("\n");
+
 console.log(`
 Right click the browser page
 + click con inspect
 + click the console tab`);
-// END ====================
+
 console.log("\n");
-// NEWLINE ********************s
+console.log("\n");
+// NEWLINE ********************
+
 console.log("4.window.print():");
+console.log("\n");
 // paste it in the index.html + click the button
 // <button onclick="window.print()">Print this page</button>
-console.log("\n");
+
 
 document.write("<br>");
 
