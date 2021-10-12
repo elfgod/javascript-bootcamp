@@ -1,5 +1,5 @@
 /* 
-    Class 04
+    Lesson 04
 */
 
 // START ====================
@@ -10,6 +10,8 @@
 2.Composite(Reference) => Array, Object, Function
 3.Special => Undefined, Null
 */
+
+// This file will have no order
 
 console.log("String text goes here");
 console.log("\n");

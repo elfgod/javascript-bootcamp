@@ -1,5 +1,5 @@
 /* 
-    Class 09
+    Lesson 10
 
 /*
 1.document.Write()

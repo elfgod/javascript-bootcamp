@@ -1,5 +1,5 @@
 /* 
-    Class 03
+    Lesson 03
 */
 
 /*
