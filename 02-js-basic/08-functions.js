@@ -192,3 +192,21 @@ function displaySO(char1, char2, char3, char4) {
 
 let letters = 'abcd';
 displaySO(...letters); // a b c d
+let letters = 'abcdefg'; // we only have 4 parameters
+displaySO(...letters); // a b c d
+
+/*
+function displaySO2(char1, char2, char3, char4, ...others) {
+  console.log(others);
+  console.log(char1, char2, char3, char4);
+
+}
+
+displaySO2(...letters;
+// (3) ["e", "f", "g"]
+// a b c d
+// additional letters get stored in the rest parameter
+*/
+
+// Rest parameter collects individual arguments and stores them in an array
+// Spread Operator takes an array as argument and spreads it into individual parameters
